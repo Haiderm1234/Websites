@@ -4,52 +4,89 @@
   /* padding-left: 50%; */
   margin: 20px;
   text-align: center;
-  box-shadow: 5px 15px 20px #000099;
+  box-shadow: -5px 20px 25px #000099;
 }
 h2{
   font-family: cursive; inherit;
   text-align: center;
   color: #088590;
   background-color: blue;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 120px;
+  margin-right: 120px;
   box-shadow: -5px 15px 10px #288188;
+  border-radius: 46px;
   /* box-shadow: 5px 15px 20px #247939; */
+  /* text-align: right; */
 }
 img{
   margin-left: 50px;
   border-radius: 35px;
-  border-style: ;
+  border-style: groove;
   border-color: #288188;
   border-top: Headline;
 }
 ul {
+  /* position: */
   background-color: #356589;
   list-style-type: none;
-  padding-left: 33px;
+  /* margin-left: 40px; */
+  /* margin-right: 40px; */
+  /* margin:auto; */
+
   /* padding: 40; */
-  overflow: hidden;
+  overflow: auto;
   /* background-color: #333; */
-  box-shadow: 5px 15px 20px teal;
-  border-radius: 46px;
+  box-shadow: -5px 15px 20px teal;
+  border-radius: 50px;
   /* text-align: center; */
   /* width: 398px; */
   /* align-content: center; */
+  margin-left: 45px;
+  margin-right: 45px;
+  /* padding-left: 5px;
+  padding-right: 5px; */
 }
 li {
   float: left;
   /* align-content: center; */
+  /* text-align: center; */
+  /* margin-left: 10px;
+  margin-right: 0px;
+  border-left-style: groove;
+  padding-left: 10px; */
 }
 
 li a {
   display: block;
   color: blue;
   text-align: center;
-  padding: 34px 29px;
+  padding: 10px 26px;
   text-decoration: underline;
-  box-shadow: 5px 15px 20px teal;
+  box-shadow: 10px 5px 20px teal;
   border-radius: 10px;
+  border-left-style: groove;
+  border-top-style: groove;
+  border-color: #158876;
+  padding-left: 25px;
+  padding-right: 25px;
+  /* border-left: 0px;
+  border-right: 0px; */
+  /* margin-left: 20px; */
+  /* margin-right: 20px; */
+  /* margin-left: 5px;
+  margin-right: 5px; */
+  /* border-style: groove;
+  border-color: #299188; */
+
 }
 li a:hover {
-  background-color: #348972;
+  background-color: #348985;
+  margin-left: 25px;
+  margin-right: 25px;
 }
+/* .active {
+  background-color: #000;
+} */
+/* li a::after{
+  background-color: #876649;
+} */
