@@ -1,3 +1,6 @@
+body{
+  background-color: #899294;
+}
 .title h1{
   font-family: cursive; inherit;
   background-color: teal;
@@ -18,21 +21,20 @@ h2{
   /* box-shadow: 5px 15px 20px #247939; */
   /* text-align: right; */
 }
-img{
-  margin-left: 50px;
-  border-radius: 35px;
-  border-style: groove;
-  border-color: #288188;
-  border-top: Headline;
-}
 ul {
   /* position: */
+  /* text-align: center;
+  position: absolute;*/
+  /* top: 50%
+  left: 50%  */
+  /* transform: translate(50%, 50%, ); */
+  mix-blend-mode: hard-light;
   background-color: #356589;
   list-style-type: none;
   /* margin-left: 40px; */
   /* margin-right: 40px; */
   /* margin:auto; */
-
+  /* opacity: 0.2; */
   /* padding: 40; */
   overflow: auto;
   /* background-color: #333; */
@@ -43,10 +45,11 @@ ul {
   /* align-content: center; */
   margin-left: 45px;
   margin-right: 45px;
-  /* padding-left: 5px;
-  padding-right: 5px; */
+  /* padding-left: 5px;*/
+  padding-right: 45px; /*Creates a padding on the right for the tabs*/
 }
 li {
+  /* opacity: 0.49; */
   float: left;
   /* align-content: center; */
   /* text-align: center; */
@@ -54,8 +57,16 @@ li {
   margin-right: 0px;
   border-left-style: groove;
   padding-left: 10px; */
+  /* min-width: 50px; */
 }
-
+/*
+The next  block contains code styling that lets me control each
+of the tabs i've created.
+In this styling code I make my tabs have a groove border style
+from the left and top side to make it look like its sticking
+out. Then I gave it a TEAL shadow that carries 10px right and
+5 px down and 20px opaque/translucent.
+*/
 li a {
   display: block;
   color: blue;
@@ -83,6 +94,17 @@ li a:hover {
   background-color: #348985;
   margin-left: 25px;
   margin-right: 25px;
+  border-style: groove;
+  border-color: #958876;
+  box-shadow: 0px 0px 35px 20px #958876;
+}
+/*
+This block of code controls when I click a tab. It makes the
+tab change to yellow with a yellowish box shadow around it.
+*/
+li a:active{
+  background-color: #958442;
+  box-shadow: 0px 0px 20px 20px #958876;
 }
 /* .active {
   background-color: #000;
@@ -90,3 +112,23 @@ li a:hover {
 /* li a::after{
   background-color: #876649;
 } */
+img{
+  float: left;
+  margin-left: 50px;
+  margin-right: 20px;
+  border-radius: 35px;
+  border-style: groove;
+  border-color: #288188;
+  /* mix-blend-mode: difference; This makes the colours inverse
+  looks pretty cool */
+}
+p1{
+  /* float: inherit; */
+  font-size: 1.75vw}
+p2{
+  font-size: 1.75vw;
+  margin-left: 1%;
+  /* float: inherit; */
+  /* margin-top: 90px; */
+  /* border-style: dotted; */
+}
